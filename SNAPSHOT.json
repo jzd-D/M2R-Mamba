@@ -1,0 +1,51 @@
+{
+  "snapshot_date": "2026-10-09",
+  "scope": "Final published-table configurations and compact original evidence, not historical search replay",
+  "training_configurations": {
+    "ptbxl": 75,
+    "mitbih_baselines": 35,
+    "mitbih_final": 5
+  },
+  "validation": {
+    "offline_integrity_syntax_manifests_and_numbers": "passed",
+    "numerical_cross_checks": 69,
+    "cpu_model_parameter_counts": 23,
+    "cnn_rnn_cpu_forwards": "passed",
+    "train_and_preprocessing_imports": "passed in frozen original image",
+    "figure_regeneration": "all five analysis figures passed in independent copy",
+    "latex_compile": "passed, 18 pages, independent copy",
+    "original_files_hash_checked": 327,
+    "original_files_changed": 0,
+    "manuscript_source_byte_identical": true,
+    "credential_private_path_and_excluded_file_scan": "passed",
+    "full_gpu_retraining_performed": false,
+    "raw_dataset_regeneration_performed": false,
+    "fresh_environment_install_performed": false
+  },
+  "portability_changes": [
+    "Shared identical modules; separate exact MIT model source",
+    "Experiment paths configurable; legacy cache defaults removed",
+    "Only final-study jobs retained; sequential launcher and checkpoint freeze entry added",
+    "Original preprocessing and calibration retained with portable input/output paths",
+    "Compact per-seed evidence without histories; provenance paths anonymized",
+    "Portable XeLaTeX build entry; all six required figure PDFs retained"
+  ],
+  "excluded": [
+    "datasets",
+    "weights",
+    "per-example predictions",
+    "logs",
+    "caches",
+    "credentials",
+    "IDE and SSH settings",
+    "historical searches",
+    "automatic schedulers",
+    "old manuscripts",
+    "compiled manuscript PDF"
+  ],
+  "limitations": [
+    "Seed statistics condition on the original fixed test cohort.",
+    "MIT final method has additional tuning budget and historical test exposure.",
+    "Cross-hardware bitwise equivalence and a clean environment full rerun are not claimed."
+  ]
+}

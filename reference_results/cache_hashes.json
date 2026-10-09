@@ -1,0 +1,32 @@
+{
+  "ptbxl": {
+    "normalization.npz": "2d1fc6346b8972a35b047583bb26026fbaa5337fb10618630fecf4eacd188238",
+    "ready.json": "d2cf1b654c5a85dcaedf685d5af2f6cdabc0d58f9e178294b132c69a63542c0f",
+    "test_groups.npy": "191281094e4a72711b33a1bf5d257d24dea05b17896995ad2b26e6f1f5ac94ca",
+    "test_ids.npy": "9c1a52de746a2b5edae60db411187d83bc1417e0d4fe71a789e0775f5cb244b8",
+    "train_groups.npy": "bcc47551593e9e64ebff88a2db20b79f4b473a6ad9f71e7ad648880a273dbadd",
+    "train_ids.npy": "377b07668523d800294ee4de2dd41595a366402f3b67946f1c747f27e3e386e1",
+    "train_labels.npy": "1cbf51f507c52f6a0a324bd22c017122d7493e08ca988f868765d468f3d634f2",
+    "train_signals.npy": "e74bb6bfd6a3961fb65e3722b0bce9b3dc8e1a0c4dedfb9098a26e9e912ae08b",
+    "val_groups.npy": "a3abb7033f3871012e08391ac9f107a602295eb355797249c3ccf45e479bd5c9",
+    "val_ids.npy": "10a19103f618d0ed317c46bf0b09ff36de71722e85d6c1a4324443cca4ca3304",
+    "val_labels.npy": "1c4022345f237ab9e45443d13eee65e82c352f704f5488aeb675a01e0e17fe35",
+    "val_signals.npy": "d418652807bd779c025faebaf839c91f7328b18ae5eba1dc5f79eea03455c5ac"
+  },
+  "mitbih": {
+    "test_signals.npy": "4db0ef05cbb156fb24aa922e9ff6b7951d8b65efa7439b6019ee6e8736948fe8",
+    "train_groups.npy": "9cb9e4950b17c1f73e22e460f53b7154670b86cc7839f4b1662478aed1b543a4",
+    "val_ids.npy": "9a3bb287f052555698f390762fdd11d2c9a489d9b4ca7f725b7ed6f8672b8ed1",
+    "val_labels.npy": "1ea91a537d893ed8154e1db321218a370e6a57a63bd722b53ee4a07f09000838",
+    "test_ids.npy": "35b0af6eef920df08de5edd38e6322412b7a7e86cb9485d6d23ef4c02cbbdfce",
+    "val_signals.npy": "f04e9d6bb93c1fa15ac3a54b085b030f4d56c5116a9bf52dd9e15123e567affb",
+    "train_signals.npy": "925391107b487c05dd6db7e0f3b0458dec3268064609c2d5e802947d9ba6d64d",
+    "ready.json": "915e2d108b9ded18c96fae5f46e2ce24c4b1e6817fca653d6c7053620271bf36",
+    "test_groups.npy": "d34262d26af56a8c1a19011e4e0466ca05aeca4b718d24ee0cc283dfcc42fec4",
+    "test_labels.npy": "ae2e67a8d633ade72f634f127e42e331bb3ad51f870e3ec971624d87260730e1",
+    "train_ids.npy": "12df5bd5a3ba5694e136d1937c3cb349cd9f41e7402e4627aedad9ae80317d24",
+    "train_labels.npy": "cc9a6a81502c174965dd39313cc6796ae2ea1eb9d42692ed78b804a77603220d",
+    "val_groups.npy": "2f1de35e68721102a7378f29eb1912d76d5a48a66dc7c9cc003f3802e5ac1365",
+    "normalization.npz": "5b85aa35dfc095d6c3a6765862d8ea58eba19754ee475cf177c16276ae1c5644"
+  }
+}

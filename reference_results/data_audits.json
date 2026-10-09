@@ -1,0 +1,149 @@
+{
+  "ptbxl": {
+    "patient_disjoint": true,
+    "patients_per_split": [
+      15023,
+      1942,
+      1904
+    ],
+    "train": {
+      "n": 17418,
+      "class_counts": [
+        7596.0,
+        4379.0,
+        4186.0,
+        3907.0,
+        2119.0
+      ],
+      "ids_sha256": "38db457ea24742dad69b3cba0045997aa20b371b8f8c5fc46abff3b8eecf11eb"
+    },
+    "val": {
+      "n": 2183,
+      "class_counts": [
+        955.0,
+        540.0,
+        528.0,
+        495.0,
+        268.0
+      ],
+      "ids_sha256": "b0ec590f3c5d58d6b989d07c77f3a20f8f6208a968bb2e8171773983baed2c3a"
+    },
+    "test": {
+      "n": 2198,
+      "class_counts": [
+        963.0,
+        550.0,
+        521.0,
+        496.0,
+        262.0
+      ],
+      "ids_sha256": "e8ba40044037dd34b1416cd4760c13fa54b32c4eb3fca057f5b4cbac712350ff"
+    },
+    "classes": [
+      "NORM",
+      "MI",
+      "STTC",
+      "CD",
+      "HYP"
+    ],
+    "normalization_source": "training samples only",
+    "signal_shape": [
+      12,
+      1000
+    ]
+  },
+  "mitbih": {
+    "patient_disjoint": true,
+    "train_records": [
+      "101",
+      "108",
+      "109",
+      "112",
+      "114",
+      "115",
+      "116",
+      "118",
+      "122",
+      "124",
+      "203",
+      "205",
+      "207",
+      "208",
+      "209",
+      "215",
+      "220"
+    ],
+    "val_records": [
+      "106",
+      "119",
+      "223",
+      "230"
+    ],
+    "test_records": [
+      "100",
+      "103",
+      "105",
+      "111",
+      "113",
+      "117",
+      "121",
+      "123",
+      "200",
+      "202",
+      "210",
+      "212",
+      "213",
+      "214",
+      "219",
+      "221",
+      "222",
+      "228",
+      "231",
+      "232",
+      "233",
+      "234"
+    ],
+    "excluded_training_record": "201",
+    "train": {
+      "n": 40097,
+      "class_counts": [
+        36810,
+        740,
+        2149,
+        398
+      ],
+      "ids_sha256": "95874aaddaa19b6e436ce179e92ebaa43b9136e8cfd23c94cc96fcaf2831b02b"
+    },
+    "val": {
+      "n": 8858,
+      "class_counts": [
+        7335,
+        73,
+        1436,
+        14
+      ],
+      "ids_sha256": "af0cc27ea362daf3124259f693a1132593f1b76e9573b20225e35f54d4d98b06"
+    },
+    "test": {
+      "n": 49603,
+      "class_counts": [
+        44165,
+        1834,
+        3216,
+        388
+      ],
+      "ids_sha256": "3b158f27423e2fbca7e8ec875c7c0c9c938e29be57b3978c278c0e1ba3a4fa42"
+    },
+    "classes": [
+      "N",
+      "S",
+      "V",
+      "F"
+    ],
+    "normalization_source": "training samples only",
+    "signal_shape": [
+      10,
+      900
+    ]
+  }
+}

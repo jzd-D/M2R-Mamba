@@ -1,0 +1,20 @@
+{
+  "image_id": "sha256:4d6258428fd4d772a4187b819548c2a7a3b3b760c148f5e51215dbf7807201a0",
+  "runtime": {
+    "python": "3.11.10",
+    "packages": {
+      "torch": "2.5.0+cu124",
+      "mamba-ssm": "2.3.1",
+      "causal-conv1d": "1.6.1",
+      "numpy": "2.1.2",
+      "pandas": "3.0.2",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "wfdb": "4.3.1",
+      "matplotlib": "3.10.8",
+      "packaging": "24.1",
+      "einops": "0.8.2",
+      "triton": "3.1.0"
+    }
+  }
+}

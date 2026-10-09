@@ -1,0 +1,776 @@
+{
+  "jobs": [
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_cnn",
+      "seed": 1,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_cnn_s1"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ms_cnn",
+      "seed": 1,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ms_cnn_s1"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_residual",
+      "seed": 1,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": true,
+        "use_mamba": true,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_residual_s1"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_cnn",
+      "seed": 2,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_cnn_s2"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ms_cnn",
+      "seed": 2,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ms_cnn_s2"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_residual",
+      "seed": 2,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": true,
+        "use_mamba": true,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_residual_s2"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_cnn",
+      "seed": 3,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_cnn_s3"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ms_cnn",
+      "seed": 3,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ms_cnn_s3"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_residual",
+      "seed": 3,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": true,
+        "use_mamba": true,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_residual_s3"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_cnn",
+      "seed": 4,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_cnn_s4"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ms_cnn",
+      "seed": 4,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ms_cnn_s4"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_residual",
+      "seed": 4,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": true,
+        "use_mamba": true,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_residual_s4"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_cnn",
+      "seed": 5,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_cnn_s5"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ms_cnn",
+      "seed": 5,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": false,
+        "use_mamba": false,
+        "bidirectional": true,
+        "morph_channels": 0
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ms_cnn_s5"
+    },
+    {
+      "dataset": "ptbxl",
+      "method": "m2r_ss_residual",
+      "seed": 5,
+      "model": {
+        "arch": "m2r_mamba",
+        "n_leads": 12,
+        "n_classes": 5,
+        "d_model": 192,
+        "n_mamba_layers": 2,
+        "d_state": 16,
+        "d_conv": 4,
+        "expand": 2,
+        "dropout": 0.25,
+        "temporal_stride": 2,
+        "pool_mode": "concat",
+        "use_multiscale": true,
+        "use_lead_aware": true,
+        "use_mamba": true,
+        "bidirectional": true,
+        "morph_channels": 0,
+        "ms_kernels": [
+          15
+        ]
+      },
+      "train": {
+        "batch_size": 64,
+        "num_workers": 2,
+        "epochs": 50,
+        "patience": 12,
+        "lr": 0.0003,
+        "min_lr": 1e-06,
+        "weight_decay": 0.02,
+        "amp": true,
+        "monitor": "macro_auroc",
+        "loss": "bce",
+        "sampler": "none",
+        "class_weight_cap": 8.0,
+        "batch_pause_seconds": 0.02
+      },
+      "gpu_memory_fraction": 0.15,
+      "init_checkpoint": null,
+      "id": "ptbxl_m2r_ss_residual_s5"
+    }
+  ],
+  "progression": [
+    "m2r_ss_cnn",
+    "m2r_ms_cnn",
+    "m2r_no_mamba",
+    "m2r_full"
+  ],
+  "contrasts": [
+    [
+      "m2r_ms_cnn",
+      "m2r_ss_cnn"
+    ],
+    [
+      "m2r_no_mamba",
+      "m2r_ms_cnn"
+    ],
+    [
+      "m2r_full",
+      "m2r_no_mamba"
+    ],
+    [
+      "m2r_full",
+      "m2r_ss_residual"
+    ],
+    [
+      "m2r_full",
+      "m2r_no_lead"
+    ],
+    [
+      "m2r_full",
+      "m2r_unidirectional"
+    ]
+  ],
+  "protocol": {
+    "single_scale": "use_multiscale remains True; ms_kernels=[15]. The same ResidualMSBlock, 1x1 fusion, BN/GELU, stem input/output and head remain in place. Parameters are not matched.",
+    "multiscale": "Original kernels [7,15,31], D=192. Original model source is unchanged.",
+    "progression": "Single-scale residual CNN -> multi-scale CNN -> add lead residual -> add BiMamba. This order follows construction, not observed scores.",
+    "optimization": "Original train settings exactly: AdamW, lr=3e-4, wd=.02, batch64, epochs50, patience12, cosine, weighted BCE, seed1-5, validation AUROC selection.",
+    "evaluation": "Train/validation only are mounted during fitting. All 15 checkpoints are frozen before a separate test-evaluation phase. Save every seed.",
+    "historical_test_exposure": "Existing PTB-XL test results have already informed research discussion. This is an exploratory supplement, not a new untouched test cohort.",
+    "references": "Reuse all five seeds for each named original configuration; read-only original results, explicit provenance, never overwrite.",
+    "statistics": "Mean and sample SD; six predefined primary-metric paired seed contrasts with exact sign flips and Holm correction. Five pairs cannot yield two-sided exact p<.05."
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "n_jobs": 15,
+  "references": [
+    {
+      "id": "ptbxl_m2r_full_s1"
+    },
+    {
+      "id": "ptbxl_m2r_full_s2"
+    },
+    {
+      "id": "ptbxl_m2r_full_s3"
+    },
+    {
+      "id": "ptbxl_m2r_full_s4"
+    },
+    {
+      "id": "ptbxl_m2r_full_s5"
+    },
+    {
+      "id": "ptbxl_m2r_no_mamba_s1"
+    },
+    {
+      "id": "ptbxl_m2r_no_mamba_s2"
+    },
+    {
+      "id": "ptbxl_m2r_no_mamba_s3"
+    },
+    {
+      "id": "ptbxl_m2r_no_mamba_s4"
+    },
+    {
+      "id": "ptbxl_m2r_no_mamba_s5"
+    },
+    {
+      "id": "ptbxl_m2r_no_lead_s1"
+    },
+    {
+      "id": "ptbxl_m2r_no_lead_s2"
+    },
+    {
+      "id": "ptbxl_m2r_no_lead_s3"
+    },
+    {
+      "id": "ptbxl_m2r_no_lead_s4"
+    },
+    {
+      "id": "ptbxl_m2r_no_lead_s5"
+    },
+    {
+      "id": "ptbxl_m2r_no_multiscale_s1"
+    },
+    {
+      "id": "ptbxl_m2r_no_multiscale_s2"
+    },
+    {
+      "id": "ptbxl_m2r_no_multiscale_s3"
+    },
+    {
+      "id": "ptbxl_m2r_no_multiscale_s4"
+    },
+    {
+      "id": "ptbxl_m2r_no_multiscale_s5"
+    },
+    {
+      "id": "ptbxl_m2r_unidirectional_s1"
+    },
+    {
+      "id": "ptbxl_m2r_unidirectional_s2"
+    },
+    {
+      "id": "ptbxl_m2r_unidirectional_s3"
+    },
+    {
+      "id": "ptbxl_m2r_unidirectional_s4"
+    },
+    {
+      "id": "ptbxl_m2r_unidirectional_s5"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Independent CPU plotting environment used for the manuscript.
+numpy==1.26.4
+matplotlib==3.9.2

@@ -1,0 +1,114 @@
+[
+  {
+    "dataset": "ptbxl",
+    "metric": "macro_auroc",
+    "reference": "m2r_full",
+    "comparator": "fcn_wang",
+    "mean_seed_metric_difference": 0.009855491340231115,
+    "cluster_unit": "patient",
+    "n_clusters": 1904,
+    "requested_resamples": 1000,
+    "valid_resamples": 1000,
+    "percentile_95": [
+      0.007277802164723113,
+      0.01260956259186861
+    ],
+    "caveat": "Conditional on five trained seeds and the available test patients; exploratory unadjusted intervals, no external-validation claim."
+  },
+  {
+    "dataset": "ptbxl",
+    "metric": "macro_auroc",
+    "reference": "m2r_full",
+    "comparator": "resnet1d_wang",
+    "mean_seed_metric_difference": 0.0046902545600913115,
+    "cluster_unit": "patient",
+    "n_clusters": 1904,
+    "requested_resamples": 1000,
+    "valid_resamples": 1000,
+    "percentile_95": [
+      0.0023721304709119124,
+      0.006991390265961205
+    ],
+    "caveat": "Conditional on five trained seeds and the available test patients; exploratory unadjusted intervals, no external-validation claim."
+  },
+  {
+    "dataset": "ptbxl",
+    "metric": "macro_auroc",
+    "reference": "m2r_full",
+    "comparator": "inception1d",
+    "mean_seed_metric_difference": 0.007957386802933009,
+    "cluster_unit": "patient",
+    "n_clusters": 1904,
+    "requested_resamples": 1000,
+    "valid_resamples": 1000,
+    "percentile_95": [
+      0.004936014862900784,
+      0.010694587838325985
+    ],
+    "caveat": "Conditional on five trained seeds and the available test patients; exploratory unadjusted intervals, no external-validation claim."
+  },
+  {
+    "dataset": "ptbxl",
+    "metric": "macro_auroc",
+    "reference": "m2r_full",
+    "comparator": "lstm",
+    "mean_seed_metric_difference": 0.006834998715163909,
+    "cluster_unit": "patient",
+    "n_clusters": 1904,
+    "requested_resamples": 1000,
+    "valid_resamples": 1000,
+    "percentile_95": [
+      0.00401861848679721,
+      0.009486900457191175
+    ],
+    "caveat": "Conditional on five trained seeds and the available test patients; exploratory unadjusted intervals, no external-validation claim."
+  },
+  {
+    "dataset": "ptbxl",
+    "metric": "macro_auroc",
+    "reference": "m2r_full",
+    "comparator": "lstm_bidir",
+    "mean_seed_metric_difference": 0.006245322888459692,
+    "cluster_unit": "patient",
+    "n_clusters": 1904,
+    "requested_resamples": 1000,
+    "valid_resamples": 1000,
+    "percentile_95": [
+      0.003462269462495593,
+      0.008778576818383024
+    ],
+    "caveat": "Conditional on five trained seeds and the available test patients; exploratory unadjusted intervals, no external-validation claim."
+  },
+  {
+    "dataset": "ptbxl",
+    "metric": "macro_auroc",
+    "reference": "m2r_full",
+    "comparator": "xresnet1d101",
+    "mean_seed_metric_difference": 0.004705444215561183,
+    "cluster_unit": "patient",
+    "n_clusters": 1904,
+    "requested_resamples": 1000,
+    "valid_resamples": 1000,
+    "percentile_95": [
+      0.0019101890244059532,
+      0.007398246579278428
+    ],
+    "caveat": "Conditional on five trained seeds and the available test patients; exploratory unadjusted intervals, no external-validation claim."
+  },
+  {
+    "dataset": "ptbxl",
+    "metric": "macro_auroc",
+    "reference": "m2r_full",
+    "comparator": "ecg_mamba",
+    "mean_seed_metric_difference": 0.012970014405919716,
+    "cluster_unit": "patient",
+    "n_clusters": 1904,
+    "requested_resamples": 1000,
+    "valid_resamples": 1000,
+    "percentile_95": [
+      0.009889460472683723,
+      0.015840255554168032
+    ],
+    "caveat": "Conditional on five trained seeds and the available test patients; exploratory unadjusted intervals, no external-validation claim."
+  }
+]

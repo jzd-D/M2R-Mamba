@@ -1,0 +1,1084 @@
+{
+  "status": "complete",
+  "new_trained": 15,
+  "new_tested": 15,
+  "new_expected": 15,
+  "reused_runs": 25,
+  "progression": [
+    "m2r_ss_cnn",
+    "m2r_ms_cnn",
+    "m2r_no_mamba",
+    "m2r_full"
+  ],
+  "rows": [
+    {
+      "method": "m2r_full",
+      "split": "validation",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9307987519531797,
+      "sample_sd": 0.001028713063057993,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3711175,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_full",
+      "split": "validation",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8139023271062351,
+      "sample_sd": 0.0020748697165258873,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3711175,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_full",
+      "split": "validation",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7329628107211004,
+      "sample_sd": 0.00772550089292883,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3711175,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_full",
+      "split": "test",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9259463711305991,
+      "sample_sd": 0.0008737812585395588,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3711175,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_full",
+      "split": "test",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8140869697422071,
+      "sample_sd": 0.002669443867745908,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3711175,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_full",
+      "split": "test",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7248845289292873,
+      "sample_sd": 0.013151233831601375,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3711175,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_full",
+      "split": "test",
+      "metric": "macro_f1_val_threshold",
+      "n": 5,
+      "mean": 0.7354995279038036,
+      "sample_sd": 0.005884746635268346,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3711175,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_mamba",
+      "split": "validation",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9294218168654027,
+      "sample_sd": 0.0010835634817916466,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2556487,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_mamba",
+      "split": "validation",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8103186198918013,
+      "sample_sd": 0.005014910063418243,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2556487,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_mamba",
+      "split": "validation",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7339060159977217,
+      "sample_sd": 0.006671936261865798,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2556487,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_mamba",
+      "split": "test",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.923100864540317,
+      "sample_sd": 0.0019090096154437148,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2556487,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_mamba",
+      "split": "test",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8091900990153686,
+      "sample_sd": 0.005380232843669408,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2556487,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_mamba",
+      "split": "test",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7265536574219504,
+      "sample_sd": 0.007366233155792796,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2556487,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_mamba",
+      "split": "test",
+      "metric": "macro_f1_val_threshold",
+      "n": 5,
+      "mean": 0.7330172108798381,
+      "sample_sd": 0.004319067154719037,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2556487,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_lead",
+      "split": "validation",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9304746185786371,
+      "sample_sd": 0.0013668143938091618,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3424133,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_lead",
+      "split": "validation",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8125175294131349,
+      "sample_sd": 0.0026921920292480306,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3424133,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_lead",
+      "split": "validation",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7318194040529946,
+      "sample_sd": 0.004823679328826376,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3424133,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_lead",
+      "split": "test",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9266536179234036,
+      "sample_sd": 0.0016899443508357572,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3424133,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_lead",
+      "split": "test",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8148862076792132,
+      "sample_sd": 0.005317680670168522,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3424133,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_lead",
+      "split": "test",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7257536178399866,
+      "sample_sd": 0.009146739692740411,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3424133,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_lead",
+      "split": "test",
+      "metric": "macro_f1_val_threshold",
+      "n": 5,
+      "mean": 0.73451800038116,
+      "sample_sd": 0.007559110490902452,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3424133,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_multiscale",
+      "split": "validation",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9321648299279337,
+      "sample_sd": 0.0008930265840506443,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2751559,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_multiscale",
+      "split": "validation",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8163975592222872,
+      "sample_sd": 0.003527360803958408,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2751559,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_multiscale",
+      "split": "validation",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7386350410632346,
+      "sample_sd": 0.0033418149613846687,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2751559,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_multiscale",
+      "split": "test",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9260526559144953,
+      "sample_sd": 0.0018222071081018057,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2751559,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_multiscale",
+      "split": "test",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8162342718944455,
+      "sample_sd": 0.003548837637379676,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2751559,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_multiscale",
+      "split": "test",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7323850411255786,
+      "sample_sd": 0.005114114678149703,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2751559,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_no_multiscale",
+      "split": "test",
+      "metric": "macro_f1_val_threshold",
+      "n": 5,
+      "mean": 0.7406492728496008,
+      "sample_sd": 0.0029168738582466356,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2751559,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_unidirectional",
+      "split": "validation",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9312496020790751,
+      "sample_sd": 0.0005999057654846432,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3060295,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_unidirectional",
+      "split": "validation",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8148333641600825,
+      "sample_sd": 0.0012362852939891424,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3060295,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_unidirectional",
+      "split": "validation",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7286796649631855,
+      "sample_sd": 0.008737251471354636,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3060295,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_unidirectional",
+      "split": "test",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.926201786801015,
+      "sample_sd": 0.0007842107994686059,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3060295,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_unidirectional",
+      "split": "test",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8138284042696033,
+      "sample_sd": 0.00240651275475014,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3060295,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_unidirectional",
+      "split": "test",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7224236060208494,
+      "sample_sd": 0.009508806697533139,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3060295,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_unidirectional",
+      "split": "test",
+      "metric": "macro_f1_val_threshold",
+      "n": 5,
+      "mean": 0.7372232287417919,
+      "sample_sd": 0.00549946547358061,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 3060295,
+      "source": "reused_original"
+    },
+    {
+      "method": "m2r_ss_cnn",
+      "split": "validation",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9286223364061016,
+      "sample_sd": 0.0012338714039216508,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 794117,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_cnn",
+      "split": "validation",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8097609239117904,
+      "sample_sd": 0.004423492549749879,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 794117,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_cnn",
+      "split": "validation",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7280332821807853,
+      "sample_sd": 0.006809743532723069,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 794117,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_cnn",
+      "split": "test",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9220024276174528,
+      "sample_sd": 0.0017980719757071909,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 794117,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_cnn",
+      "split": "test",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8058570083787492,
+      "sample_sd": 0.002807232925881042,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 794117,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_cnn",
+      "split": "test",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7170610981533437,
+      "sample_sd": 0.005442510901474506,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 794117,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_cnn",
+      "split": "test",
+      "metric": "macro_f1_val_threshold",
+      "n": 5,
+      "mean": 0.7276999286520313,
+      "sample_sd": 0.003446389515179931,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 794117,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ms_cnn",
+      "split": "validation",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9288893281710978,
+      "sample_sd": 0.0008378866523187684,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2269445,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ms_cnn",
+      "split": "validation",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8101161487878953,
+      "sample_sd": 0.0028369907465286936,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2269445,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ms_cnn",
+      "split": "validation",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7290207933878478,
+      "sample_sd": 0.01140998159968173,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2269445,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ms_cnn",
+      "split": "test",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9236824568105314,
+      "sample_sd": 0.0009708587048673819,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2269445,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ms_cnn",
+      "split": "test",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8088327514858766,
+      "sample_sd": 0.004110314187673898,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2269445,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ms_cnn",
+      "split": "test",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7199097522199743,
+      "sample_sd": 0.009412857828196815,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2269445,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ms_cnn",
+      "split": "test",
+      "metric": "macro_f1_val_threshold",
+      "n": 5,
+      "mean": 0.7319664979173794,
+      "sample_sd": 0.003724407362776521,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2269445,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_residual",
+      "split": "validation",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9296847154035627,
+      "sample_sd": 0.0021191540114617663,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2235847,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_residual",
+      "split": "validation",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.8120094754847369,
+      "sample_sd": 0.0030549260290826602,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2235847,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_residual",
+      "split": "validation",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7338974533885873,
+      "sample_sd": 0.006477126955339643,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2235847,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_residual",
+      "split": "test",
+      "metric": "macro_auroc",
+      "n": 5,
+      "mean": 0.9234870032331987,
+      "sample_sd": 0.0025678075543360155,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2235847,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_residual",
+      "split": "test",
+      "metric": "macro_auprc",
+      "n": 5,
+      "mean": 0.812066905484676,
+      "sample_sd": 0.005044226795591623,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2235847,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_residual",
+      "split": "test",
+      "metric": "macro_f1",
+      "n": 5,
+      "mean": 0.7268576623806629,
+      "sample_sd": 0.009496990361644473,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2235847,
+      "source": "new_supplement"
+    },
+    {
+      "method": "m2r_ss_residual",
+      "split": "test",
+      "metric": "macro_f1_val_threshold",
+      "n": 5,
+      "mean": 0.7336365400154624,
+      "sample_sd": 0.005890114407659454,
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "trainable_params": 2235847,
+      "source": "new_supplement"
+    }
+  ],
+  "paired_primary_contrasts": [
+    {
+      "newer": "m2r_ms_cnn",
+      "older": "m2r_ss_cnn",
+      "metric": "macro_auroc",
+      "seed_differences": [
+        0.0014234467699812958,
+        0.0016017686521365704,
+        -0.0002867739904260924,
+        0.0017181090002720278,
+        0.003943595533429933
+      ],
+      "mean_difference": 0.001680029193078747,
+      "descriptive_seed_t95": [
+        -0.0001892274658774828,
+        0.0035492858520349765
+      ],
+      "p_raw": 0.125,
+      "p_holm": 0.625
+    },
+    {
+      "newer": "m2r_no_mamba",
+      "older": "m2r_ms_cnn",
+      "metric": "macro_auroc",
+      "seed_differences": [
+        -0.00014725951391747483,
+        0.0006530592159239568,
+        -0.0023883479601964908,
+        0.0009268677410145809,
+        -0.0019522808338962028
+      ],
+      "mean_difference": -0.0005815922702143261,
+      "descriptive_seed_t95": [
+        -0.0024576572146357296,
+        0.0012944726742070772
+      ],
+      "p_raw": 0.4375,
+      "p_holm": 0.875
+    },
+    {
+      "newer": "m2r_full",
+      "older": "m2r_no_mamba",
+      "metric": "macro_auroc",
+      "seed_differences": [
+        0.0007988784647376956,
+        0.001451115024729055,
+        0.005650375240458971,
+        0.003125241607922158,
+        0.003201922613562558
+      ],
+      "mean_difference": 0.0028455065902820873,
+      "descriptive_seed_t95": [
+        0.0005055721946438246,
+        0.00518544098592035
+      ],
+      "p_raw": 0.0625,
+      "p_holm": 0.375
+    },
+    {
+      "newer": "m2r_full",
+      "older": "m2r_ss_residual",
+      "metric": "macro_auroc",
+      "seed_differences": [
+        0.0033825102249694927,
+        -0.00120120271617552,
+        0.0039214965941289925,
+        0.0030394443445318498,
+        0.0031545910395480714
+      ],
+      "mean_difference": 0.002459367897400577,
+      "descriptive_seed_t95": [
+        -0.00011612079839390518,
+        0.00503485659319506
+      ],
+      "p_raw": 0.125,
+      "p_holm": 0.625
+    },
+    {
+      "newer": "m2r_full",
+      "older": "m2r_no_lead",
+      "metric": "macro_auroc",
+      "seed_differences": [
+        -0.0008615635324707993,
+        -0.0021951702395651695,
+        -0.00047496572253447056,
+        -0.0004939732435815802,
+        0.0004894387741293249
+      ],
+      "mean_difference": -0.000707246792804539,
+      "descriptive_seed_t95": [
+        -0.0019125607873544089,
+        0.000498067201745331
+      ],
+      "p_raw": 0.1875,
+      "p_holm": 0.625
+    },
+    {
+      "newer": "m2r_full",
+      "older": "m2r_unidirectional",
+      "metric": "macro_auroc",
+      "seed_differences": [
+        -0.0020520068600813346,
+        0.001301428554938755,
+        0.00030687332460654915,
+        0.00014195036111464,
+        -0.0009753237326576292
+      ],
+      "mean_difference": -0.0002554156704158039,
+      "descriptive_seed_t95": [
+        -0.0018556503589410988,
+        0.0013448190181094908
+      ],
+      "p_raw": 0.75,
+      "p_holm": 0.875
+    }
+  ],
+  "caveat": "All five seeds retained. Parameter counts differ. Five-pair two-sided exact minimum p=.0625. Prior test exposure remains. No monotonic-improvement guarantee."
+}
